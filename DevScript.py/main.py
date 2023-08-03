@@ -26,4 +26,4 @@ models_output = model.generate(input_text_IDs, max_length=100, num_return_sequen
 models_response_text = tokenizer.decode(models_output[0], skip_special_tokens=True)
 
 # displaying the model's response
-print("EduQuest: " + models_response_text)
+print("Ola: " + models_response_text)
